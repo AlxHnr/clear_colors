@@ -12,7 +12,7 @@ highlighting groups.
 ## Installation
 
 Please refer to the documentation of your package manager. After you
-installed it, just ad one of the following lines to your vimrc:
+installed it, just add one of the following lines to your vimrc:
 
 	colorscheme clear_colors_dark
 	colorscheme clear_colors_light
