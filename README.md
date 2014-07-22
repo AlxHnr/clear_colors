@@ -7,10 +7,7 @@ light variant and aims to be complete and consistent. Not all plugins are
 supported yet, but it should work fine as long as they link to existing
 highlighting groups.
 
-![Dark Variant (Vim/GVim)](https://raw.github.com/AlxHnr/clear_colors/master/screenshots/dark.png)
-![Light Variant (Vim/GVim)](https://raw.github.com/AlxHnr/clear_colors/master/screenshots/light.png)
-![Dark Variant (8 Color Terminal)](https://raw.github.com/AlxHnr/clear_colors/master/screenshots/dark_8.png)
-![Light Variant (8 Color Terminal)](https://raw.github.com/AlxHnr/clear_colors/master/screenshots/light_8.png)
+![screenshot.png](https://raw.github.com/AlxHnr/clear_colors/master/screenshot.png)
 
 ## Installation
 
