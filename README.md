@@ -1,7 +1,7 @@
 # Clear Colors
 
 A clear, unobtrusive colorscheme for Vim. It provides a consistent look
-between 256 color Terminals and GVim and also has an 8 color fallback mode
+between 256 color terminals and GVim and also has an 8 color fallback mode
 for older terminals and TTYs. This colorscheme comes both in a dark and
 light variant and aims to be complete and consistent. Not all plugins are
 supported yet, but it should work fine as long as they link to existing
