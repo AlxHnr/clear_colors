@@ -7,7 +7,11 @@ light variant and aims to be complete and consistent. Not all plugins are
 supported yet, but it should work fine as long as they link to existing
 highlighting groups.
 
+Here is a screenshot of the GVim/256 color variants:
 ![screenshot.png](https://raw.github.com/AlxHnr/clear_colors/master/screenshot.png)
+
+Here are both variants in 8 color fallback mode:
+![screenshot_fallback.png](https://raw.github.com/AlxHnr/clear_colors/master/screenshot_fallback.png)
 
 ## Installation
 
