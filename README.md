@@ -10,7 +10,10 @@ highlighting groups.
 Here is a screenshot of the GVim/256 color variants:
 ![screenshot.png](https://raw.github.com/AlxHnr/clear_colors/master/screenshot.png)
 
-Here are both variants in 8 color fallback mode:
+Here are both variants in 8 color fallback mode. The colors are likely to
+vary from terminal to terminal. Since 8 color terminals are quite rare
+nowadays and you will face them mostly in TTYs, the colors where chosen to
+look nice in agetty.
 ![screenshot_fallback.png](https://raw.github.com/AlxHnr/clear_colors/master/screenshot_fallback.png)
 
 ## Installation
