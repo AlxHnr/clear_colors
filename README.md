@@ -1,24 +1,16 @@
 # Clear Colors
 
-A clear, unobtrusive colorscheme for Vim. It provides a consistent look
-between 256 color terminals and GVim and also has an 8 color fallback mode
-for older terminals and TTYs. This colorscheme comes both in a dark and
-light variant and aims to be complete and consistent. Not all plugins are
-supported yet, but it should work fine as long as they link to existing
-highlighting groups.
+A clear, unobtrusive pair of colorschemes for Vim containing a dark and a
+light variant. It was made for 256 color terminals, but looks the same in
+GVim.
 
-Here is a screenshot of the GVim/256 color variants:
-![screenshot.png](https://raw.github.com/AlxHnr/clear_colors/master/screenshot.png)
-
-Here are both variants in 8 color fallback mode. The colors are likely to
-vary from terminal to terminal. Since 8 color terminals are quite rare
-nowadays and you will face them mostly in TTYs, the colors where chosen to
-look nice in agetty.
-![screenshot_fallback.png](https://raw.github.com/AlxHnr/clear_colors/master/screenshot_fallback.png)
+![dark_and_light.png](https://raw.github.com/AlxHnr/clear_colors/master/screenshots/dark_and_light.png)
+![diff_ctrlp_dark.png](https://raw.github.com/AlxHnr/clear_colors/master/screenshots/diff_ctrlp_dark.png)
+![vimrc_light.png](https://raw.github.com/AlxHnr/clear_colors/master/screenshots/vimrc_light.png)
 
 ## Installation
 
-Please refer to the documentation of your package manager. After you
+Please refer to the documentation of your package manager. After you have
 installed it, just add one of the following lines to your vimrc:
 
 	colorscheme clear_colors_dark

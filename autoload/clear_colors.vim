@@ -123,63 +123,27 @@ function! s:get_color(dict, key, hex) " {{{
 endfunction " }}}
 
 function! s:apply_common_colors() " {{{
-	if exists('&t_Co') && &t_Co == 8 " {{{
-		let s:common_colors =
-			\	{
-			\		'Comment'                : { 'font' : 'bold', 'fg' : '0' },
-			\		'Constant'               : { 'font' : 'bold', 'fg' : '3' },
-			\		'Character'              : { 'font' : 'bold', 'fg' : '2' },
-			\		'Number'                 : { 'fg' : '1' },
-			\		'Identifier'             : { 'fg' : '5' },
-			\		'Function'               : { 'font' : 'bold', 'fg' : '4' },
-			\		'Delimiter'              : {},
-			\		'SpecialComment'         : { 'font' : 'bold', 'fg' : '0' },
-			\		'Underlined'             : { 'font' : 'bold', 'fg' : '6' },
-			\		'Ignore'                 : {},
-			\		'ColorColumn'            : { 'bg' : '3' },
-			\		'CursorLine'             : {},
-			\		'IncSearch'              : { 'bg'   : '6',    'fg' : '0' },
-			\		'DiffAdd'                : { 'font' : 'bold', 'bg' : '2',    'fg' : '7' },
-			\		'DiffDelete'             : { 'bg' : '1',      'fg' : '1' },
-			\		'DiffChange'             : { 'bg' : '5',      'fg' : '7' },
-			\		'DiffText'               : { 'font' : 'bold', 'bg' : '6',    'fg' : '7' },
-			\		'MatchParen'             : { 'font' : 'bold', 'bg' : '3',    'fg' : '7' },
-			\		'SpellRare'              : { 'fg' : '5' },
-			\		'Title'                  : {},
-			\		'MoreMsg'                : {},
-			\		'ModeMsg'                : {},
-			\		'WarningMsg'             : {},
-			\		'ErrorMsg'               : {},
-			\		'Question'               : {},
-			\		'Pmenusel'               : { 'font' : 'bold', 'bg' : '3',    'fg' : '7' },
-			\		'OutOfTextwidth'         : { 'font' : 'bold', 'bg' : '6',    'fg' : '0' },
-			\		'GentooChangeLogDelFile' : { 'bg' : '1',      'fg' : '7' },
-			\	}
-		" 8 colors. }}}
-	else " 256 colors. {{{
-		let s:common_colors =
-			\	{
-			\		'Comment'        : { 'fg' : '246' },
-			\		'String'         : { 'fg' : '107' },
-			\		'Character'      : { 'font' : 'bold',      'fg' : '107' },
-			\		'Identifier'     : { 'fg' : '139' },
-			\		'Include'        : { 'fg' : '245' },
-			\		'Delimiter'      : {},
-			\		'SpecialComment' : { 'font' : 'bold',      'fg' : '246' },
-			\		'Ignore'         : {},
-			\		'Error'          : { 'font' : 'underline', 'fg' : '203' },
-			\		'SpellRare'      : { 'font' : 'underline', 'fg' : '139' },
-			\		'Title'          : {},
-			\		'MoreMsg'        : {},
-			\		'ModeMsg'        : {},
-			\		'WarningMsg'     : {},
-			\		'ErrorMsg'       : {},
-			\		'Question'       : {},
-			\		'StartifyHeader' : { 'font' : 'bold',      'fg' : '107' },
-			\		'CtrlPNoEntries' : { 'fg' : '203' },
-			\	}
-	endif
-	" 256 colors. }}}
+	let s:common_colors =
+		\	{
+		\		'Comment'        : { 'fg'   : '246' },
+		\		'String'         : { 'fg'   : '107' },
+		\		'Character'      : { 'font' : 'bold',      'fg' : '107' },
+		\		'Identifier'     : { 'fg'   : '139' },
+		\		'Include'        : { 'fg'   : '245' },
+		\		'Delimiter'      : {},
+		\		'SpecialComment' : { 'font' : 'bold',      'fg' : '246' },
+		\		'Ignore'         : {},
+		\		'Error'          : { 'font' : 'underline', 'fg' : '203' },
+		\		'SpellRare'      : { 'font' : 'underline', 'fg' : '139' },
+		\		'Title'          : {},
+		\		'MoreMsg'        : {},
+		\		'ModeMsg'        : {},
+		\		'WarningMsg'     : {},
+		\		'ErrorMsg'       : {},
+		\		'Question'       : {},
+		\		'StartifyHeader' : { 'font' : 'bold',      'fg' : '107' },
+		\		'CtrlPNoEntries' : { 'fg'   : '203' },
+		\	}
 
 	call clear_colors#apply_colors(s:common_colors)
 endfunction " }}}
