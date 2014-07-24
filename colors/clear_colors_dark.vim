@@ -61,7 +61,6 @@ let s:colors =
 	\		'SyntasticWarningSign'   : { 'font' : 'bold',      'bg' : '237', 'fg' : '215' },
 	\		'GentooChangeLogDelFile' : { 'bg'   : '95',        'fg' : '252' },
 	\	}
-endif
 
 call clear_colors#apply_colors(s:colors)
 call clear_colors#apply_common_highlights()
