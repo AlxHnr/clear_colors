@@ -1,8 +1,7 @@
 # Clear Colors
 
 A clear, unobtrusive pair of colorschemes for Vim containing a dark and a
-light variant. It was made for 256 color terminals, but looks the same in
-GVim.
+light variant.
 
 ![dark_and_light.png](https://raw.github.com/AlxHnr/clear_colors/master/screenshots/dark_and_light.png)
 ![diff_ctrlp_dark.png](https://raw.github.com/AlxHnr/clear_colors/master/screenshots/diff_ctrlp_dark.png)
@@ -10,7 +9,7 @@ GVim.
 
 ## Installation
 
-Please refer to the documentation of your package manager. After you have
+Please refer to the documentation of your plugin manager. After you have
 installed it, just add one of the following lines to your vimrc:
 
 	colorscheme clear_colors_dark
