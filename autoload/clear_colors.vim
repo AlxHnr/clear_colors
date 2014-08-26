@@ -125,24 +125,25 @@ endfunction " }}}
 function! s:apply_common_colors() " {{{
 	let s:common_colors =
 		\	{
-		\		'Comment'        : { 'fg'   : '246' },
-		\		'String'         : { 'fg'   : '107' },
-		\		'Character'      : { 'font' : 'bold',      'fg' : '107' },
-		\		'Identifier'     : { 'fg'   : '139' },
-		\		'Include'        : { 'fg'   : '245' },
-		\		'Delimiter'      : {},
-		\		'SpecialComment' : { 'font' : 'bold',      'fg' : '246' },
-		\		'Ignore'         : {},
-		\		'Error'          : { 'font' : 'underline', 'fg' : '203' },
-		\		'SpellRare'      : { 'font' : 'underline', 'fg' : '139' },
-		\		'Title'          : {},
-		\		'MoreMsg'        : {},
-		\		'ModeMsg'        : {},
-		\		'WarningMsg'     : {},
-		\		'ErrorMsg'       : {},
-		\		'Question'       : {},
-		\		'StartifyHeader' : { 'font' : 'bold',      'fg' : '107' },
-		\		'CtrlPNoEntries' : { 'fg'   : '203' },
+		\		'Comment'          : { 'fg'   : '246' },
+		\		'String'           : { 'fg'   : '107' },
+		\		'Character'        : { 'font' : 'bold',      'fg' : '107' },
+		\		'Identifier'       : { 'fg'   : '139' },
+		\		'Include'          : { 'fg'   : '245' },
+		\		'Delimiter'        : {},
+		\		'SpecialComment'   : { 'font' : 'bold',      'fg' : '246' },
+		\		'Ignore'           : {},
+		\		'Error'            : { 'font' : 'underline', 'fg' : '203' },
+		\		'SpellRare'        : { 'font' : 'underline', 'fg' : '139' },
+		\		'Title'            : {},
+		\		'MoreMsg'          : {},
+		\		'ModeMsg'          : {},
+		\		'WarningMsg'       : {},
+		\		'ErrorMsg'         : {},
+		\		'Question'         : {},
+		\		'StartifyHeader'   : { 'font' : 'bold',      'fg' : '107' },
+		\		'CtrlPNoEntries'   : { 'fg'   : '203' },
+		\		'EasyMotionTarget' : { 'font' : 'bold',      'fg' : '203' },
 		\	}
 
 	call clear_colors#apply_colors(s:common_colors)
@@ -185,6 +186,13 @@ function! s:apply_common_links() " {{{
 	highlight! link CtrlPPrtBase Function
 	highlight! link CtrlPMode2 StatusLine
 	highlight! link CtrlPStats StatusLine
+	highlight! link GentooChangeLogDelFile GitGutterDeleteLine
+	highlight! link GitGutterChangeDelete GitGutterDelete
+	highlight! link GitGutterChangeDeleteLine DiffText
+	highlight! link EasyMotionShade Comment
+	highlight! link EasyMotionTarget2Second EasyMotionTarget2First
+	highlight! link EasyMotionIncSearch Character
+	highlight! link EasyMotionIncCursor IncSearch
 endfunction " }}}
 
 " Apply all colors in 'dict'.

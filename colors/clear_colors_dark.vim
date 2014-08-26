@@ -56,10 +56,15 @@ let s:colors =
 	\		'Pmenusel'               : { 'bg'   : '244',       'fg' : '253' },
 	\		'PmenuSbar'              : { 'bg'   : '243' },
 	\		'PmenuThumb'             : { 'bg'   : '251' },
+	\		'WildMenu'               : { 'bg'   : '242',       'fg' : '253' },
 	\		'OutOfTextwidth'         : { 'font' : 'underline', 'bg' : '238' },
 	\		'SyntasticErrorSign'     : { 'font' : 'bold',      'bg' : '237', 'fg' : '203' },
 	\		'SyntasticWarningSign'   : { 'font' : 'bold',      'bg' : '237', 'fg' : '215' },
-	\		'GentooChangeLogDelFile' : { 'bg'   : '95',        'fg' : '252' },
+	\		'GitGutterAdd'           : { 'font' : 'bold',      'bg' : '237', 'fg' : '107' },
+	\		'GitGutterChange'        : { 'font' : 'bold',      'bg' : '237', 'fg' : '215' },
+	\		'GitGutterDelete'        : { 'font' : 'bold',      'bg' : '237', 'fg' : '203' },
+	\		'GitGutterDeleteLine'    : { 'bg'   : '95',        'fg' : '252' },
+	\		'EasyMotionTarget2First' : { 'font' : 'bold',      'fg' : '180' },
 	\	}
 
 call clear_colors#apply_colors(s:colors)
