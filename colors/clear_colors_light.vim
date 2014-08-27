@@ -64,7 +64,7 @@ let s:colors =
 	\		'GitGutterChange'        : { 'font' : 'bold',      'bg' : '254', 'fg' : '172' },
 	\		'GitGutterDelete'        : { 'font' : 'bold',      'bg' : '254', 'fg' : '160' },
 	\		'GitGutterDeleteLine'    : { 'bg'   : '224' },
-	\		'EasyMotionTarget2First' : { 'font' : 'bold',      'fg' : '173' },
+	\		'EasyMotionTarget2First' : { 'font' : 'bold',      'fg' : '179' },
 	\	}
 
 call clear_colors#apply_colors(s:colors)
