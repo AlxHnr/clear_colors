@@ -65,6 +65,8 @@ let s:colors =
 	\		'GitGutterDelete'        : { 'font' : 'bold',      'bg' : '237', 'fg' : '203' },
 	\		'GitGutterDeleteLine'    : { 'bg'   : '95',        'fg' : '252' },
 	\		'EasyMotionTarget2First' : { 'font' : 'bold',      'fg' : '180' },
+	\		'SneakPluginTarget'      : { 'bg'   : '67',        'fg' : '234' },
+	\		'SneakPluginScope'       : { 'bg'   : '235',       'fg' : '250' },
 	\	}
 
 call clear_colors#apply_colors(s:colors)

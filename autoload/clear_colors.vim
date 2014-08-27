@@ -193,6 +193,9 @@ function! s:apply_common_links() " {{{
 	highlight! link EasyMotionTarget2Second EasyMotionTarget2First
 	highlight! link EasyMotionIncSearch Character
 	highlight! link EasyMotionIncCursor IncSearch
+	highlight! link SneakStreakTarget EasyMotionTarget
+	highlight! link SneakStreakMask EasyMotionTarget2First
+	highlight! link SneakStreakStatusLine StatusLine
 endfunction " }}}
 
 " Apply all colors in 'dict'.
