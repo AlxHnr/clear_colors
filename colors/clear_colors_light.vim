@@ -67,6 +67,7 @@ let s:colors =
 	\		'EasyMotionTarget2First' : { 'font' : 'bold',      'fg' : '178' },
 	\		'SneakPluginTarget'      : { 'bg'   : '67',        'fg' : '255' },
 	\		'SneakPluginScope'       : { 'bg'   : '231',       'fg' : '239' },
+	\		'SneakStreakCursor'      : { 'font' : 'bold',      'bg' : '255', 'fg' : '203' },
 	\	}
 
 call clear_colors#apply_colors(s:colors)

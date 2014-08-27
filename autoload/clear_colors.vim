@@ -189,6 +189,10 @@ function! s:apply_common_links() " {{{
 	highlight! link GentooChangeLogDelFile GitGutterDeleteLine
 	highlight! link GitGutterChangeDelete GitGutterDelete
 	highlight! link GitGutterChangeDeleteLine DiffText
+	highlight! link SignifySignAdd GitGutterAdd
+	highlight! link SignifySignChange GitGutterChange
+	highlight! link SignifySignDelete GitGutterDelete
+	highlight! link SignifyLineDelete GitGutterDeleteLine
 	highlight! link EasyMotionShade Comment
 	highlight! link EasyMotionTarget2Second EasyMotionTarget2First
 	highlight! link EasyMotionIncSearch Character
