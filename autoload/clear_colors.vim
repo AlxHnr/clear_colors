@@ -173,6 +173,7 @@ function! s:apply_common_links() " {{{
 	highlight! link Tag Underlined
 	highlight! link Todo SpecialComment
 	highlight! link CursorColumn CursorLine
+	highlight! link NonText Conceal
 	highlight! link SpellBad Error
 	highlight! link SpellCap Error
 	highlight! link SpellLocal Error
@@ -221,4 +222,15 @@ endfunction " }}}
 function! clear_colors#apply_common_highlights() " {{{
 	call s:apply_common_colors()
 	call s:apply_common_links()
+endfunction " }}}
+
+" This function enables plugin specific tweaks and other things. It relies
+" on some color values provided by 'dict'.
+function! clear_colors#apply_specific_stuff(dict) " {{{
+	let g:indent_guides_auto_colors = 0
+
+	if has_key(a:dict, "Conceal") && has_key(a:dict["Conceal"], "fg")
+		let g:indentLine_color_term = a:dict["Conceal"].fg
+		let g:indentLine_color_gui = s:get_color(a:dict["Conceal"], "fg", 1)
+	endif
 endfunction " }}}

@@ -37,6 +37,7 @@ let s:colors =
 	\		'FoldColumn'             : { 'bg'   : '237',       'fg' : '110' },
 	\		'SignColumn'             : { 'font' : 'bold',      'bg' : '237' },
 	\		'ColorColumn'            : { 'bg'   : '236' },
+	\		'Conceal'                : { 'fg'   : '240' },
 	\		'CursorLine'             : { 'bg'   : '236' },
 	\		'CursorLineNr'           : { 'bg'   : '238',       'fg' : '245' },
 	\		'MatchParen'             : { 'font' : 'bold',      'bg' : '96',  'fg' : '255' },
@@ -52,7 +53,6 @@ let s:colors =
 	\		'TabLine'                : { 'font' : 'underline', 'bg' : '235', 'fg' : '241' },
 	\		'TabLineSel'             : { 'font' : 'underline', 'bg' : '238', 'fg' : '249' },
 	\		'Visual'                 : { 'bg'   : '242',       'fg' : '251' },
-	\		'NonText'                : { 'fg'   : '240' },
 	\		'Pmenu'                  : { 'bg'   : '239',       'fg' : '249' },
 	\		'Pmenusel'               : { 'bg'   : '244',       'fg' : '253' },
 	\		'PmenuSbar'              : { 'bg'   : '243' },
@@ -70,7 +70,10 @@ let s:colors =
 	\		'SneakPluginTarget'      : { 'bg'   : '67',        'fg' : '234' },
 	\		'SneakPluginScope'       : { 'bg'   : '235',       'fg' : '250' },
 	\		'SneakStreakCursor'      : { 'font' : 'bold',      'bg' : '236', 'fg' : '203' },
+	\		'IndentGuidesOdd'        : { 'bg'   : '236' },
+	\		'IndentGuidesEven'       : { 'bg'   : '237' },
 	\	}
 
 call clear_colors#apply_colors(s:colors)
 call clear_colors#apply_common_highlights()
+call clear_colors#apply_specific_stuff(s:colors)
