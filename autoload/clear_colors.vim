@@ -168,13 +168,11 @@ function! s:apply_common_links() " {{{
 	highlight! link Structure Identifier
 	highlight! link Typedef Identifier
 	highlight! link Special Function
-	highlight! link SpecialKey Function
 	highlight! link SpecialChar Character
 	highlight! link Debug Identifier
 	highlight! link Tag Underlined
 	highlight! link Todo SpecialComment
 	highlight! link CursorColumn CursorLine
-	highlight! link NonText Comment
 	highlight! link SpellBad Error
 	highlight! link SpellCap Error
 	highlight! link SpellLocal Error
@@ -186,13 +184,13 @@ function! s:apply_common_links() " {{{
 	highlight! link CtrlPPrtBase Function
 	highlight! link CtrlPMode2 StatusLine
 	highlight! link CtrlPStats StatusLine
-	highlight! link GentooChangeLogDelFile GitGutterDeleteLine
-	highlight! link GitGutterChangeDelete GitGutterDelete
-	highlight! link GitGutterChangeDeleteLine DiffText
-	highlight! link SignifySignAdd GitGutterAdd
-	highlight! link SignifySignChange GitGutterChange
-	highlight! link SignifySignDelete GitGutterDelete
-	highlight! link SignifyLineDelete GitGutterDeleteLine
+	highlight! link GentooChangeLogDelFile SignifyLineDelete
+	highlight! link GitGutterAdd SignifySignAdd
+	highlight! link GitGutterChange SignifySignChange
+	highlight! link GitGutterDelete SignifySignDelete
+	highlight! link GitGutterDeleteLine SignifyLineDelete
+	highlight! link GitGutterChangeDelete SignifySignDelete
+	highlight! link GitGutterChangeDeleteLine DiffChange
 	highlight! link EasyMotionShade Comment
 	highlight! link EasyMotionTarget2Second EasyMotionTarget2First
 	highlight! link EasyMotionIncSearch Character
