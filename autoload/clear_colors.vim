@@ -128,7 +128,6 @@ function! s:apply_common_colors() " {{{
 		\		'Comment'          : { 'fg'   : '246' },
 		\		'String'           : { 'fg'   : '107' },
 		\		'Character'        : { 'font' : 'bold',      'fg' : '107' },
-		\		'Identifier'       : { 'fg'   : '139' },
 		\		'Include'          : { 'fg'   : '245' },
 		\		'Delimiter'        : {},
 		\		'SpecialComment'   : { 'font' : 'bold',      'fg' : '246' },

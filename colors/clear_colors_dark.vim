@@ -31,6 +31,7 @@ let s:colors =
 	\		'Normal'                 : { 'bg'   : '235',       'fg' : '250' },
 	\		'Constant'               : { 'fg'   : '180' },
 	\		'Number'                 : { 'fg'   : '174' },
+	\		'Identifier'             : { 'fg'   : '139' },
 	\		'Function'               : { 'fg'   : '110' },
 	\		'Underlined'             : { 'font' : 'underline', 'fg' : '110' },
 	\		'Folded'                 : { 'bg'   : '236',       'fg' : '110' },
