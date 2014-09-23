@@ -180,6 +180,9 @@ function! s:apply_common_links() " {{{
 	highlight! link StatusLineNC LineNr
 	highlight! link TabLineFill TabLine
 	highlight! link VisualNOS Visual
+	highlight! link ocamlModPath Identifier
+	highlight! link ocamlModule Identifier
+	highlight! link ocamlFullMod Identifier
 	highlight! link CtrlPMatch Function
 	highlight! link CtrlPPrtBase Function
 	highlight! link CtrlPMode2 StatusLine
