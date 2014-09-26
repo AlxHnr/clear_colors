@@ -183,9 +183,13 @@ function! s:apply_common_links() " {{{
 	highlight! link ocamlModPath Identifier
 	highlight! link ocamlModule Identifier
 	highlight! link ocamlFullMod Identifier
-	highlight! link StartifyHeader Character
+	highlight! link StartifyBracket Comment
 	highlight! link StartifyFile Normal
+	highlight! link StartifyFooter Comment
+	highlight! link StartifyHeader Character
 	highlight! link StartifyPath Comment
+	highlight! link StartifySelect Function
+	highlight! link StartifySlash StartifyPath
 	highlight! link StartifySpecial Identifier
 	highlight! link CtrlPMatch Function
 	highlight! link CtrlPPrtBase Function
