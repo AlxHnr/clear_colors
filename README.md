@@ -25,8 +25,10 @@ light variant.
 Please refer to the documentation of your plugin manager. After you have
 installed it, just add one of the following lines to your vimrc:
 
-	colorscheme clear_colors_dark
-	colorscheme clear_colors_light
+```vim
+colorscheme clear_colors_dark
+colorscheme clear_colors_light
+```
 
 ## License
 
