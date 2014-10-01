@@ -185,7 +185,7 @@ function! s:apply_common_links() " {{{
 	highlight! link ocamlFullMod Identifier
 	highlight! link StartifyBracket Comment
 	highlight! link StartifyFile Normal
-	highlight! link StartifyFooter Comment
+	highlight! link StartifyFooter Constant
 	highlight! link StartifyHeader Character
 	highlight! link StartifyPath Comment
 	highlight! link StartifySelect Function
