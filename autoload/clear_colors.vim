@@ -140,6 +140,9 @@ function! s:apply_common_colors() " {{{
 		\		'WarningMsg'       : {},
 		\		'ErrorMsg'         : {},
 		\		'Question'         : {},
+		\		'htmlBold'         : { 'font' : 'bold' },
+		\		'htmlItalic'       : { 'font' : 'italic' },
+		\		'htmlBoldItalic'   : { 'font' : 'bold,italic' },
 		\		'CtrlPNoEntries'   : { 'fg'   : '203' },
 		\		'EasyMotionTarget' : { 'font' : 'bold',      'fg' : '203' },
 		\	}
@@ -179,6 +182,20 @@ function! s:apply_common_links() " {{{
 	highlight! link StatusLineNC LineNr
 	highlight! link TabLineFill TabLine
 	highlight! link VisualNOS Visual
+	highlight! link markdownH1 Identifier
+	highlight! link markdownH2 markdownH1
+	highlight! link markdownH3 markdownH1
+	highlight! link markdownH4 markdownH1
+	highlight! link markdownH5 markdownH1
+	highlight! link markdownH6 markdownH1
+	highlight! link markdownEscape Character
+	highlight! link markdownHeadingDelimiter Function
+	highlight! link markdownUrl Underlined
+	highlight! link markdownLinkText Constant
+	highlight! link markdownLinkDelimiter Identifier
+	highlight! link markdownLinkTextDelimiter Identifier
+	highlight! link markdownCode Comment
+	highlight! link markdownCodeDelimiter Number
 	highlight! link ocamlModPath Identifier
 	highlight! link ocamlModule Identifier
 	highlight! link ocamlFullMod Identifier
