@@ -251,13 +251,17 @@ function! clear_colors#apply_specific_stuff() " {{{
 		" colorschemes.
 		execute 'let l:rainbow_colors["lv' . l:counter
 			\	. 'c"] = { "fg" : ' . value '}'
+		let l:counter -= 1
 	endfor
 
-	" This workaround is needed to translate the colors from the plugin
-	" 'rainbow' to 'rainbow parenthesis'.
+	" This workaround wrangles the colors in 'g:rainbow_ctermfgs' for the
+	" plugin 'kien/rainbow_parenthesis.vim'. This allows both plugins to look
+	" the same.
+	let l:len = len(g:rainbow_ctermfgs)
+	let l:off = l:len - 5
 	for counter in range(1, 16)
 		execute 'let l:rainbow_colors["level' . counter . 'c"] = { "fg" : '
-			\	. g:rainbow_ctermfgs[(counter + 2) % len(g:rainbow_ctermfgs)] . '}'
+			\	. g:rainbow_ctermfgs[l:len - 1 - ((counter + l:off) % l:len)] . '}'
 	endfor
 
 	call clear_colors#apply_colors(l:rainbow_colors)
