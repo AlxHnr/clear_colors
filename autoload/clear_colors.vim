@@ -126,8 +126,6 @@ function! s:apply_common_colors() " {{{
 	let s:common_colors =
 		\	{
 		\		'Comment'          : { 'fg'   : '246' },
-		\		'String'           : { 'fg'   : '107' },
-		\		'Character'        : { 'font' : 'bold',      'fg' : '107' },
 		\		'Include'          : { 'fg'   : '245' },
 		\		'Delimiter'        : {},
 		\		'SpecialComment'   : { 'font' : 'bold',      'fg' : '246' },
@@ -195,7 +193,7 @@ function! s:apply_common_links() " {{{
 	highlight! link markdownLinkDelimiter Identifier
 	highlight! link markdownLinkTextDelimiter Identifier
 	highlight! link markdownCode Comment
-	highlight! link markdownCodeDelimiter Number
+	highlight! link markdownCodeDelimiter SpecialComment
 	highlight! link ocamlModPath Identifier
 	highlight! link ocamlModule Identifier
 	highlight! link ocamlFullMod Identifier

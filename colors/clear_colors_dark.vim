@@ -30,6 +30,8 @@ let s:colors =
 	\	{
 	\		'Normal'                 : { 'bg'   : '235',       'fg' : '250' },
 	\		'Constant'               : { 'fg'   : '180' },
+	\		'String'                 : { 'fg'   : '107' },
+	\		'Character'              : { 'font' : 'bold',      'fg' : '107' },
 	\		'Number'                 : { 'fg'   : '174' },
 	\		'Identifier'             : { 'fg'   : '139' },
 	\		'Function'               : { 'fg'   : '110' },
