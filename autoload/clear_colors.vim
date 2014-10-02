@@ -140,7 +140,6 @@ function! s:apply_common_colors() " {{{
 		\		'WarningMsg'       : {},
 		\		'ErrorMsg'         : {},
 		\		'Question'         : {},
-		\		'StartifyHeader'   : { 'font' : 'bold',      'fg' : '107' },
 		\		'CtrlPNoEntries'   : { 'fg'   : '203' },
 		\		'EasyMotionTarget' : { 'font' : 'bold',      'fg' : '203' },
 		\	}
@@ -234,13 +233,32 @@ function! clear_colors#apply_common_highlights() " {{{
 	call s:apply_common_links()
 endfunction " }}}
 
-" This function enables plugin specific tweaks and other things. It relies
-" on some color values provided by 'dict'.
-function! clear_colors#apply_specific_stuff(dict) " {{{
+" This function enables plugin specific tweaks and other things.
+function! clear_colors#apply_specific_stuff() " {{{
 	let g:indent_guides_auto_colors = 0
+	let g:indentLine_color_gui = s:xterm_colormap[g:indentLine_color_term]
 
-	if has_key(a:dict, "Conceal") && has_key(a:dict["Conceal"], "fg")
-		let g:indentLine_color_term = a:dict["Conceal"].fg
-		let g:indentLine_color_gui = s:xterm_colormap[a:dict["Conceal"].fg]
-	endif
+	let g:rainbow_guifgs  = []
+	let g:rbpt_colorpairs = []
+
+	let l:counter = len(g:rainbow_ctermfgs)
+	let l:rainbow_colors = {}
+	for value in g:rainbow_ctermfgs
+		let g:rainbow_guifgs  += [ s:xterm_colormap[value] ]
+		let g:rbpt_colorpairs += [[ value, s:xterm_colormap[value] ]]
+
+		" Workaround, to force recoloring parenthesis, when switching
+		" colorschemes.
+		execute 'let l:rainbow_colors["lv' . l:counter
+			\	. 'c"] = { "fg" : ' . value '}'
+	endfor
+
+	" This workaround is needed to translate the colors from the plugin
+	" 'rainbow' to 'rainbow parenthesis'.
+	for counter in range(1, 16)
+		execute 'let l:rainbow_colors["level' . counter . 'c"] = { "fg" : '
+			\	. g:rainbow_ctermfgs[(counter + 2) % len(g:rainbow_ctermfgs)] . '}'
+	endfor
+
+	call clear_colors#apply_colors(l:rainbow_colors)
 endfunction " }}}

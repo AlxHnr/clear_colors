@@ -76,6 +76,12 @@ let s:colors =
 	\		'ExtraWhitespace'        : { 'bg'   : '217',       'fg' : '217' },
 	\	}
 
+" Plugin specific stuff. {{{
+let g:indentLine_color_term = s:colors.Conceal.fg
+let g:rainbow_ctermfgs = [ 172, 65, 131, 68, 204, 130 ]
+" Plugin specific stuff. }}}
+
+" Apply the colors and highlighting groups.
 call clear_colors#apply_colors(s:colors)
 call clear_colors#apply_common_highlights()
-call clear_colors#apply_specific_stuff(s:colors)
+call clear_colors#apply_specific_stuff()

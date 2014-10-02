@@ -19,6 +19,8 @@ light variant.
 * [Indent Guides](https://github.com/nathanaelkane/vim-indent-guides)
 * [indentLine](https://github.com/Yggdroot/indentLine)
 * [Better Whitespace](https://github.com/ntpeters/vim-better-whitespace)
+* [Rainbow Parenthesis](https://github.com/kien/rainbow_parentheses.vim)
+* [Rainbow Parenthesis Improved](https://github.com/oblitum/rainbow)
 
 ## Installation
 
