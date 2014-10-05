@@ -194,7 +194,6 @@ function! s:apply_common_links() " {{{
 	highlight! link markdownLinkTextDelimiter Identifier
 	highlight! link markdownCode Comment
 	highlight! link markdownCodeDelimiter SpecialComment
-	highlight! link schemeExtSyntax schemeSyntax
 	highlight! link ocamlModPath Identifier
 	highlight! link ocamlModule Identifier
 	highlight! link ocamlFullMod Identifier
