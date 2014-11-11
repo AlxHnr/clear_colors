@@ -21,6 +21,7 @@ light variant.
 * [Better Whitespace](https://github.com/ntpeters/vim-better-whitespace)
 * [Rainbow Parenthesis](https://github.com/kien/rainbow_parentheses.vim)
 * [Rainbow Parenthesis Improved](https://github.com/oblitum/rainbow)
+* [Vim-Notes](https://github.com/xolox/vim-notes)
 
 ## Installation
 

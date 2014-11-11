@@ -169,7 +169,6 @@ function! s:apply_common_links() " {{{
   highlight! link Special Function
   highlight! link SpecialChar Character
   highlight! link Debug Identifier
-  highlight! link Tag Underlined
   highlight! link Todo SpecialComment
   highlight! link CursorColumn CursorLine
   highlight! link NonText Conceal
@@ -223,6 +222,31 @@ function! s:apply_common_links() " {{{
   highlight! link SneakStreakTarget EasyMotionTarget
   highlight! link SneakStreakMask EasyMotionTarget2First
   highlight! link SneakStreakStatusLine StatusLine
+  highlight! link notesName String
+  highlight! link notesTagName Tag
+  highlight! link notesListBullet Constant
+  highlight! link notesListNumber Constant
+  highlight! link notesSingleQuoted String
+  highlight! link notesItalic htmlItalic
+  highlight! link notesBold htmlBold
+  highlight! link notesTextURL Underlined
+  highlight! link notesRealURL notesTextURL
+  highlight! link notesEmailAddr Function
+  highlight! link notesUnixPath Function
+  highlight! link notesWindowsPath notesUnixPath
+  highlight! link notesPathLnum Number
+  highlight! link notesTodo Number
+  highlight! link notesXXX notesFixme
+  highlight! link notesDoneItem Comment
+  highlight! link notesDoneMarker String
+  highlight! link notesVimCmd Constant
+  highlight! link notesTitle Identifier
+  highlight! link notesAtxHeading Identifier
+  highlight! link notesShortHeading Constant
+  highlight! link notesCodeStart Comment
+  highlight! link notesCodeEnd notesCodeStart
+  highlight! link notesModeLine Comment
+  highlight! link notesLastEdited Comment
 endfunction " }}}
 
 " Apply all colors in 'dict'.

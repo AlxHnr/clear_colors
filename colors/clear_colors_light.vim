@@ -41,6 +41,7 @@ let s:colors =
   \   'SignColumn'             : { 'font' : 'bold',      'bg' : '254' },
   \   'ColorColumn'            : { 'bg'   : '255' },
   \   'Conceal'                : { 'fg'   : '252' },
+  \   'Tag'                    : { 'font' : 'bold',      'fg'    : '133' },
   \   'CursorLine'             : { 'bg'   : '255' },
   \   'CursorLineNr'           : { 'bg'   : '253',       'fg' : '246' },
   \   'MatchParen'             : { 'font' : 'bold',      'bg' : '174', 'fg' : '231' },
@@ -76,6 +77,8 @@ let s:colors =
   \   'IndentGuidesOdd'        : { 'bg'   : '255' },
   \   'IndentGuidesEven'       : { 'bg'   : '254' },
   \   'ExtraWhitespace'        : { 'bg'   : '217',       'fg' : '217' },
+  \   'notesFixme'             : { 'font' : 'bold',      'fg' : '167' },
+  \   'notesInProgress'        : { 'font' : 'bold',      'fg' : '173' },
   \ }
 
 " Plugin specific stuff. {{{
