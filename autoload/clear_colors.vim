@@ -243,8 +243,11 @@ function! s:apply_common_links() " {{{
   highlight! link notesTitle Identifier
   highlight! link notesAtxHeading Identifier
   highlight! link notesShortHeading Constant
+  highlight! link notesRule SpecialComment
   highlight! link notesCodeStart Comment
   highlight! link notesCodeEnd notesCodeStart
+  highlight! link notesInlineCode Comment
+  highlight! link notesInlineCodeMarker Number
   highlight! link notesModeLine Comment
   highlight! link notesLastEdited Comment
 endfunction " }}}
