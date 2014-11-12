@@ -79,6 +79,7 @@ let s:colors =
   \   'ExtraWhitespace'        : { 'bg'   : '167',       'fg' : '167' },
   \   'notesFixme'             : { 'font' : 'bold',      'fg' : '174' },
   \   'notesInProgress'        : { 'font' : 'bold',      'fg' : '180' },
+  \   'GundoCurrentLocation'   : { 'font' : 'bold',      'fg' : '110' },
   \ }
 
 " Plugin specific stuff. {{{

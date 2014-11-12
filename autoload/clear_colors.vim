@@ -179,6 +179,8 @@ function! s:apply_common_links() " {{{
   highlight! link StatusLineNC LineNr
   highlight! link TabLineFill TabLine
   highlight! link VisualNOS Visual
+  highlight! link diffAdded String
+  highlight! link diffRemoved Number
   highlight! link markdownH1 Identifier
   highlight! link markdownH2 markdownH1
   highlight! link markdownH3 markdownH1
@@ -250,6 +252,7 @@ function! s:apply_common_links() " {{{
   highlight! link notesInlineCodeMarker Number
   highlight! link notesModeLine Comment
   highlight! link notesLastEdited Comment
+  highlight! link GundoNumber Number
 endfunction " }}}
 
 " Apply all colors in 'dict'.
