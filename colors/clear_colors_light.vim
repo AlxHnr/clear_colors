@@ -42,6 +42,7 @@ let s:colors =
   \   'ColorColumn'            : { 'bg'   : '255' },
   \   'Conceal'                : { 'fg'   : '252' },
   \   'Tag'                    : { 'font' : 'bold',      'fg'    : '133' },
+  \   'Todo'                   : { 'font' : 'bold',      'fg'    : '137' },
   \   'CursorLine'             : { 'bg'   : '255' },
   \   'CursorLineNr'           : { 'bg'   : '253',       'fg' : '246' },
   \   'MatchParen'             : { 'font' : 'bold',      'bg' : '174', 'fg' : '231' },
@@ -77,8 +78,10 @@ let s:colors =
   \   'IndentGuidesOdd'        : { 'bg'   : '255' },
   \   'IndentGuidesEven'       : { 'bg'   : '254' },
   \   'ExtraWhitespace'        : { 'bg'   : '217',       'fg' : '217' },
+  \   'notesName'              : { 'font' : 'underline', 'fg' : '64' },
   \   'notesFixme'             : { 'font' : 'bold',      'fg' : '167' },
-  \   'notesInProgress'        : { 'font' : 'bold',      'fg' : '173' },
+  \   'notesInProgress'        : { 'font' : 'bold',      'fg' : '67' },
+  \   'notesDoneMarker'        : { 'font' : 'bold',      'fg' : '107' },
   \   'GundoCurrentLocation'   : { 'font' : 'bold',      'fg' : '67' },
   \ }
 

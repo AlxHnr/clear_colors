@@ -22,7 +22,7 @@ light variant.
 * [Rainbow Parenthesis](https://github.com/kien/rainbow_parentheses.vim)
 * [Rainbow Parenthesis Improved](https://github.com/oblitum/rainbow)
 * [vim-notes](https://github.com/xolox/vim-notes)
-* [Gundo.vim](http://sjl.bitbucket.org/gundo.vim/)
+* [Gundo](http://sjl.bitbucket.org/gundo.vim/)
 
 ## Installation
 
