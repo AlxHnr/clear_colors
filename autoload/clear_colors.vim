@@ -223,6 +223,7 @@ function! s:apply_common_links() " {{{
   highlight! link SneakStreakTarget EasyMotionTarget
   highlight! link SneakStreakMask EasyMotionTarget2First
   highlight! link SneakStreakStatusLine StatusLine
+  highlight! link notesName Constant
   highlight! link notesTagName Tag
   highlight! link notesListBullet Function
   highlight! link notesListNumber Number
@@ -232,17 +233,17 @@ function! s:apply_common_links() " {{{
   highlight! link notesTextURL Underlined
   highlight! link notesRealURL notesTextURL
   highlight! link notesEmailAddr Function
-  highlight! link notesUnixPath Function
+  highlight! link notesUnixPath Comment
   highlight! link notesWindowsPath notesUnixPath
   highlight! link notesPathLnum Number
   highlight! link notesTodo Todo
   highlight! link notesXXX notesFixme
   highlight! link notesDoneItem Comment
-  highlight! link notesVimCmd Constant
+  highlight! link notesVimCmd String
   highlight! link notesTitle Identifier
   highlight! link notesAtxHeading Number
   highlight! link notesShortHeading Identifier
-  highlight! link notesRule SpecialComment
+  highlight! link notesRule Comment
   highlight! link notesCodeStart Comment
   highlight! link notesCodeEnd notesCodeStart
   highlight! link notesInlineCode Comment

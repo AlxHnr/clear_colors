@@ -78,7 +78,6 @@ let s:colors =
   \   'IndentGuidesOdd'        : { 'bg'   : '255' },
   \   'IndentGuidesEven'       : { 'bg'   : '254' },
   \   'ExtraWhitespace'        : { 'bg'   : '217',       'fg' : '217' },
-  \   'notesName'              : { 'font' : 'underline', 'fg' : '64' },
   \   'notesFixme'             : { 'font' : 'bold',      'fg' : '167' },
   \   'notesInProgress'        : { 'font' : 'bold',      'fg' : '67' },
   \   'notesDoneMarker'        : { 'font' : 'bold',      'fg' : '107' },
