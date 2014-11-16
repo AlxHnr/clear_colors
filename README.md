@@ -23,6 +23,7 @@ light variant.
 * [Rainbow Parenthesis Improved](https://github.com/oblitum/rainbow)
 * [vim-notes](https://github.com/xolox/vim-notes)
 * [Gundo](http://sjl.bitbucket.org/gundo.vim/)
+* [Tagbar](https://github.com/majutsushi/tagbar)
 
 ## Installation
 

@@ -251,6 +251,14 @@ function! s:apply_common_links() " {{{
   highlight! link notesModeLine Comment
   highlight! link notesLastEdited Comment
   highlight! link GundoNumber Number
+  highlight! link TagbarNestedKind String
+  highlight! link TagbarScope Identifier
+  highlight! link TagbarType Number
+  highlight! link TagbarSignature Comment
+  highlight! link TagbarPseudoID Constant
+  highlight! link TagbarVisibilityPublic Function
+  highlight! link TagbarVisibilityProtected Constant
+  highlight! link TagbarVisibilityPrivate Number
 endfunction " }}}
 
 " Apply all colors in 'dict'.
