@@ -143,6 +143,7 @@ function! s:apply_common_colors() " {{{
     \   'htmlBoldItalic'   : { 'font' : 'bold,italic' },
     \   'CtrlPNoEntries'   : { 'fg'   : '203' },
     \   'EasyMotionTarget' : { 'font' : 'bold',      'fg' : '203' },
+    \   'plugError'        : { 'fg'   : '203' },
     \ }
 
   call clear_colors#apply_colors(s:common_colors)
@@ -259,6 +260,15 @@ function! s:apply_common_links() " {{{
   highlight! link TagbarVisibilityPublic Function
   highlight! link TagbarVisibilityProtected Constant
   highlight! link TagbarVisibilityPrivate Number
+  highlight! link plugDash Function
+  highlight! link plugPlus Character
+  highlight! link plugStar Constant
+  highlight! link plugMessage Constant
+  highlight! link plugX plugError
+  highlight! link plugName Function
+  highlight! link plugInstall Constant
+  highlight! link plugUpdate Comment
+  highlight! link plugSha Constant
 endfunction " }}}
 
 " Apply all colors in 'dict'.

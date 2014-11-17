@@ -24,6 +24,7 @@ light variant.
 * [vim-notes](https://github.com/xolox/vim-notes)
 * [Gundo](http://sjl.bitbucket.org/gundo.vim/)
 * [Tagbar](https://github.com/majutsushi/tagbar)
+* [vim-plug](https://github.com/junegunn/vim-plug)
 
 ## Installation
 
