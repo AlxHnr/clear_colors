@@ -268,7 +268,13 @@ function! s:apply_common_links() " {{{
   highlight! link plugName Function
   highlight! link plugInstall Constant
   highlight! link plugUpdate Comment
-  highlight! link plugSha Constant
+  highlight! link plugSha Identifier
+  highlight! link gitvHash Identifier
+  highlight! link gitvRef Identifier
+  highlight! link gitvGraphEdge0 Constant
+  highlight! link gitvGraphEdge1 Function
+  highlight! link gitvGraphEdge2 String
+  highlight! link gitvGraphEdge3 Identifier
 endfunction " }}}
 
 " Apply all colors in 'dict'.

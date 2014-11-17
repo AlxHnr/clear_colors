@@ -82,6 +82,12 @@ let s:colors =
   \   'notesInProgress'        : { 'font' : 'bold',      'fg' : '110' },
   \   'notesDoneMarker'        : { 'font' : 'bold',      'fg' : '65' },
   \   'GundoCurrentLocation'   : { 'font' : 'bold',      'fg' : '110' },
+  \   'gitvGraphEdge4'         : { 'fg' : '179' },
+  \   'gitvGraphEdge5'         : { 'fg' : '72' },
+  \   'gitvGraphEdge6'         : { 'fg' : '175' },
+  \   'gitvGraphEdge7'         : { 'fg' : '147' },
+  \   'gitvGraphEdge8'         : { 'fg' : '204' },
+  \   'gitvGraphEdge9'         : { 'fg' : '173' },
   \ }
 
 " Plugin specific stuff. {{{
