@@ -93,6 +93,7 @@ let s:colors =
   \   'painterPaletteBlue'     : { 'bg' : '67',          'fg' : '67' },
   \   'painterPaletteYellow'   : { 'bg' : '173',         'fg' : '173' },
   \   'painterPaletteGreen'    : { 'bg' : '64',          'fg' : '64' },
+  \   'painterCanvasEmpty'     : { 'bg' : '231',         'fg' : '231' },
   \ }
 
 " Plugin specific stuff. {{{
