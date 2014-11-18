@@ -25,6 +25,7 @@ light variant.
 * [Gundo](http://sjl.bitbucket.org/gundo.vim/)
 * [Tagbar](https://github.com/majutsushi/tagbar)
 * [vim-plug](https://github.com/junegunn/vim-plug)
+* [vim-painter](https://github.com/thinca/vim-painter)
 
 ## Installation
 

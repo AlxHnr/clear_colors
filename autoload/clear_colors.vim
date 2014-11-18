@@ -275,6 +275,11 @@ function! s:apply_common_links() " {{{
   highlight! link gitvGraphEdge1 Function
   highlight! link gitvGraphEdge2 String
   highlight! link gitvGraphEdge3 Identifier
+  highlight! link painterCanvasWhite painterPaletteWhite
+  highlight! link painterCanvasRed painterPaletteRed
+  highlight! link painterCanvasBlue painterPaletteBlue
+  highlight! link painterCanvasYellow painterPaletteYellow
+  highlight! link painterCanvasGreen painterPaletteGreen
 endfunction " }}}
 
 " Apply all colors in 'dict'.

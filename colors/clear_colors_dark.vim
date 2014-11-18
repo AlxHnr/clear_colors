@@ -88,6 +88,11 @@ let s:colors =
   \   'gitvGraphEdge7'         : { 'fg' : '147' },
   \   'gitvGraphEdge8'         : { 'fg' : '204' },
   \   'gitvGraphEdge9'         : { 'fg' : '173' },
+  \   'painterPaletteWhite'    : { 'bg' : '250',         'fg' : '250' },
+  \   'painterPaletteRed'      : { 'bg' : '174',         'fg' : '174' },
+  \   'painterPaletteBlue'     : { 'bg' : '110',         'fg' : '110' },
+  \   'painterPaletteYellow'   : { 'bg' : '180',         'fg' : '180' },
+  \   'painterPaletteGreen'    : { 'bg' : '107',         'fg' : '107' },
   \ }
 
 " Plugin specific stuff. {{{
