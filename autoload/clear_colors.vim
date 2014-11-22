@@ -271,13 +271,21 @@ function! s:apply_common_links() " {{{
   highlight! link plugSha Identifier
   highlight! link gitvHash Identifier
   highlight! link gitvRef Identifier
+  highlight! link gitvRefTag Constant
+  highlight! link gitvRefRemote Constant
+  highlight! link gitvRefHead Number
   highlight! link gitvGraphEdge0 String
   highlight! link gitvGraphEdge1 Constant
   highlight! link gitvGraphEdge2 Function
   highlight! link gitvGraphEdge3 Identifier
   highlight! link gitvLoadMore Comment
+  highlight! link gitvWorkingCopy Comment
+  highlight! link gitvRange Number
+  highlight! link gitvRangeFromTo Identifier
   highlight! link gitvLocalUncommit Constant
   highlight! link gitvLocalUncommitNode gitvLocalUncommit
+  highlight! link gitvLocalCommited Function
+  highlight! link gitvLocalCommitedNode gitvLocalCommited
   highlight! link painterCanvasWhite painterPaletteWhite
   highlight! link painterCanvasRed painterPaletteRed
   highlight! link painterCanvasBlue painterPaletteBlue
