@@ -269,6 +269,8 @@ function! s:apply_common_links() " {{{
   highlight! link plugInstall Constant
   highlight! link plugUpdate Comment
   highlight! link plugSha Identifier
+  highlight! link FugitiveblameUncommitted Comment
+  highlight! link FugitiveblameDelimiter Comment
   highlight! link gitvHash Identifier
   highlight! link gitvRef Identifier
   highlight! link gitvRefTag Constant
