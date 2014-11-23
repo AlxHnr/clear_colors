@@ -115,7 +115,7 @@ function! s:get_color(dict, key, hex) " {{{
     return 'NONE'
   endif
 
-  if a:hex
+  if a:hex && a:key != 'font'
     return s:xterm_colormap[a:dict[a:key]]
   else
     return a:dict[a:key]
@@ -348,6 +348,18 @@ function! clear_colors#apply_specific_stuff() " {{{
     execute 'let l:rainbow_colors["level' . counter . 'c"] = { "fg" : '
       \ . g:rainbow_ctermfgs[l:len - 1 - ((counter + l:off) % l:len)] . '}'
   endfor
+
+  " Lengthmatters.
+  if exists('*lengthmatters#highlight')
+    let l:lm = g:clear_colors_lengthmatters
+    call lengthmatters#highlight(
+      \    'cterm='   . s:get_color(l:lm, 'font', 0)
+      \ . ' ctermbg=' . s:get_color(l:lm, 'bg',   0)
+      \ . ' ctermfg=' . s:get_color(l:lm, 'fg',   0)
+      \ . ' gui='     . s:get_color(l:lm, 'font', 1)
+      \ . ' guibg='   . s:get_color(l:lm, 'bg',   1)
+      \ . ' guifg='   . s:get_color(l:lm, 'fg',   1))
+  endif
 
   call clear_colors#apply_colors(l:rainbow_colors)
 endfunction " }}}
