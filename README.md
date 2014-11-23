@@ -29,7 +29,6 @@ light variant.
 * [gitv](https://github.com/gregsexton/gitv)
 * [vim-painter](https://github.com/thinca/vim-painter)
 (See [my fork](https://github.com/AlxHnr/vim-painter) for a screenshot)
-* [Lengthmatters](https://github.com/whatyouhide/vim-lengthmatters)
 
 ## Installation
 

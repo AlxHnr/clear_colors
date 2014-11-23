@@ -64,6 +64,7 @@ let s:colors =
   \   'PmenuThumb'             : { 'bg'   : '251' },
   \   'SpecialKey'             : { 'fg'   : '95' },
   \   'WildMenu'               : { 'bg'   : '242',       'fg' : '253' },
+  \   'OutOfTextwidth'         : { 'font' : 'underline', 'bg' : '238' },
   \   'SyntasticErrorSign'     : { 'font' : 'bold',      'bg' : '237', 'fg' : '203' },
   \   'SyntasticWarningSign'   : { 'font' : 'bold',      'bg' : '237', 'fg' : '215' },
   \   'SignifySignAdd'         : { 'font' : 'bold',      'bg' : '237', 'fg' : '107' },
@@ -98,8 +99,6 @@ let s:colors =
 " Plugin specific stuff. {{{
 let g:indentLine_color_term = s:colors.Conceal.fg
 let g:rainbow_ctermfgs = [ 179, 72, 175, 147, 204, 173 ]
-let g:clear_colors_lengthmatters =
-  \ { 'font' : 'underline', 'bg' : '238', 'fg' : '174' }
 " Plugin specific stuff. }}}
 
 " Apply the colors and highlighting groups.
