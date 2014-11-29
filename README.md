@@ -23,13 +23,13 @@ light variant.
 * [Rainbow Parenthesis Improved](https://github.com/oblitum/rainbow)
 * [vim-notes](https://github.com/xolox/vim-notes)
 * [Gundo](http://sjl.bitbucket.org/gundo.vim/)
+* [undotree](https://github.com/mbbill/undotree)
 * [Tagbar](https://github.com/majutsushi/tagbar)
 * [vim-plug](https://github.com/junegunn/vim-plug)
 * [Fugitive](https://github.com/tpope/vim-fugitive)
 * [gitv](https://github.com/gregsexton/gitv)
 * [vim-painter](https://github.com/thinca/vim-painter)
 (See [my fork](https://github.com/AlxHnr/vim-painter) for a screenshot)
-* [undotree](https://github.com/mbbill/undotree)
 
 ## Installation
 

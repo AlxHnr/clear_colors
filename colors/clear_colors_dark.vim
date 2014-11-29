@@ -64,7 +64,7 @@ let s:colors =
   \   'PmenuThumb'             : { 'bg'   : '251' },
   \   'SpecialKey'             : { 'fg'   : '95' },
   \   'WildMenu'               : { 'bg'   : '242',       'fg' : '253' },
-  \   'OutOfTextwidth'         : { 'font' : 'underline', 'bg' : '238' },
+  \   'OutOfTextwidth'         : { 'font' : 'underline', 'bg' : '238', 'fg' : '174' },
   \   'SyntasticErrorSign'     : { 'font' : 'bold',      'bg' : '237', 'fg' : '203' },
   \   'SyntasticWarningSign'   : { 'font' : 'bold',      'bg' : '237', 'fg' : '215' },
   \   'SignifySignAdd'         : { 'font' : 'bold',      'bg' : '237', 'fg' : '107' },
