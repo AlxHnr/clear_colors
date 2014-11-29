@@ -181,6 +181,7 @@ function! s:apply_common_links() " {{{
   highlight! link VisualNOS Visual
   highlight! link diffAdded String
   highlight! link diffRemoved Number
+  highlight! link qfLineNr Number
   highlight! link markdownH1 Identifier
   highlight! link markdownH2 markdownH1
   highlight! link markdownH3 markdownH1
