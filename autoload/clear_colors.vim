@@ -252,6 +252,16 @@ function! s:apply_common_links() " {{{
   highlight! link notesModeLine Comment
   highlight! link notesLastEdited Comment
   highlight! link GundoNumber Number
+  highlight! link UndotreeNode String
+  highlight! link UndotreeNodeCurrent SignifyLineDelete
+  highlight! link UndotreeTimeStamp Comment
+  highlight! link UndotreeBranch Comment
+  highlight! link UndotreeSeq Number
+  highlight! link UndotreeCurrent GundoCurrentLocation
+  highlight! link UndotreeNext Tag
+  highlight! link UndotreeHead Character
+  highlight! link UndotreeSavedSmall Constant
+  highlight! link UndotreeSavedBig Todo
   highlight! link TagbarNestedKind String
   highlight! link TagbarScope Identifier
   highlight! link TagbarType Number
