@@ -3,9 +3,8 @@
 A clear, unobtrusive pair of colorschemes for Vim containing a dark and a
 light variant.
 
-![dark\_and\_light.png](https://raw.github.com/AlxHnr/clear_colors/master/screenshots/dark_and_light.png)
-![diff\_ctrlp\_dark.png](https://raw.github.com/AlxHnr/clear_colors/master/screenshots/diff_ctrlp_dark.png)
-![vimrc\_light.png](https://raw.github.com/AlxHnr/clear_colors/master/screenshots/vimrc_light.png)
+![screenshot_dark.png](https://raw.github.com/AlxHnr/clear_colors/master/screenshots/dark.png)
+![screenshot_light.png](https://raw.github.com/AlxHnr/clear_colors/master/screenshots/light.png)
 
 ## Supported plugins
 
