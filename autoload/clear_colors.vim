@@ -125,13 +125,8 @@ endfunction " }}}
 function! s:apply_common_colors() " {{{
   let s:common_colors =
     \ {
-    \   'Comment'          : { 'fg'   : '246' },
-    \   'Include'          : { 'fg'   : '245' },
     \   'Delimiter'        : {},
-    \   'SpecialComment'   : { 'font' : 'bold',      'fg' : '246' },
     \   'Ignore'           : {},
-    \   'Error'            : { 'font' : 'underline', 'fg' : '203' },
-    \   'SpellRare'        : { 'font' : 'underline', 'fg' : '139' },
     \   'Title'            : {},
     \   'MoreMsg'          : {},
     \   'ModeMsg'          : {},
@@ -141,9 +136,6 @@ function! s:apply_common_colors() " {{{
     \   'htmlBold'         : { 'font' : 'bold' },
     \   'htmlItalic'       : { 'font' : 'italic' },
     \   'htmlBoldItalic'   : { 'font' : 'bold,italic' },
-    \   'CtrlPNoEntries'   : { 'fg'   : '203' },
-    \   'EasyMotionTarget' : { 'font' : 'bold',      'fg' : '203' },
-    \   'plugError'        : { 'fg'   : '203' },
     \ }
 
   call clear_colors#apply_colors(s:common_colors)
