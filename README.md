@@ -15,6 +15,7 @@ light variant. It requires either a 256 color terminal or GVim.
 * [CtrlP](https://github.com/kien/ctrlp.vim)
 * [Signify](https://github.com/mhinz/vim-signify)
 * [GitGutter](https://github.com/airblade/vim-gitgutter)
+* [Neomake](https://github.com/neomake/neomake)
 * [EasyMotion](https://github.com/Lokaltog/vim-easymotion)
 * [Sneak](https://github.com/justinmk/vim-sneak)
 * [Indent Guides](https://github.com/nathanaelkane/vim-indent-guides)

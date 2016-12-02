@@ -210,6 +210,8 @@ function! s:apply_common_links() " {{{
   highlight! link GitGutterDeleteLine SignifyLineDelete
   highlight! link GitGutterChangeDelete SignifySignDelete
   highlight! link GitGutterChangeDeleteLine DiffChange
+  highlight! link NeomakeErrorSign SyntasticErrorSign
+  highlight! link NeomakeWarningSign SyntasticWarningSign
   highlight! link EasyMotionShade Comment
   highlight! link EasyMotionTarget2Second EasyMotionTarget2First
   highlight! link EasyMotionIncSearch Character
