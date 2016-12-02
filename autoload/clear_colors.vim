@@ -1,4 +1,4 @@
-" Copyright (c) 2014 Alexander Heinrich <alxhnr@nudelpost.de> {{{
+" Copyright (c) 2016 Alexander Heinrich {{{
 "
 " This software is provided 'as-is', without any express or implied
 " warranty. In no event will the authors be held liable for any damages
