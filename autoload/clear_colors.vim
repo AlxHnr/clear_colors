@@ -248,6 +248,11 @@ function! s:apply_common_links() " {{{
   highlight! link notesInlineCodeMarker Number
   highlight! link notesModeLine Comment
   highlight! link notesLastEdited Comment
+  highlight! link CalNavi Statement
+  highlight! link CalHeader Type
+  highlight! link CalSaturday Number
+  highlight! link CalSunday PreProc
+  highlight! link CalMemo String
   highlight! link GundoNumber Number
   highlight! link UndotreeNode String
   highlight! link UndotreeNodeCurrent SignifyLineDelete
