@@ -136,6 +136,7 @@ function! s:apply_common_colors() " {{{
     \   'htmlBold'         : { 'font' : 'bold' },
     \   'htmlItalic'       : { 'font' : 'italic' },
     \   'htmlBoldItalic'   : { 'font' : 'bold,italic' },
+    \   'ALEInfo'          : { 'font' : 'underline' },
     \ }
 
   call clear_colors#apply_colors(s:common_colors)
@@ -210,6 +211,7 @@ function! s:apply_common_links() " {{{
   highlight! link GitGutterDeleteLine SignifyLineDelete
   highlight! link GitGutterChangeDelete SignifySignDelete
   highlight! link GitGutterChangeDeleteLine DiffChange
+  highlight! link ALEError Error
   highlight! link NeomakeErrorSign ALEErrorSign
   highlight! link NeomakeWarningSign ALEWarningSign
   highlight! link SyntasticErrorSign ALEErrorSign

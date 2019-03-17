@@ -70,6 +70,7 @@ let s:colors =
   \   'SpecialKey'             : { 'fg'   : '217' },
   \   'WildMenu'               : { 'bg'   : '247',       'fg' : '231' },
   \   'OutOfTextwidth'         : { 'font' : 'underline', 'bg' : '255', 'fg' : '167' },
+  \   'ALEWarning'             : { 'font' : 'underline', 'fg' : '173' },
   \   'ALEInfoSign'            : { 'font' : 'bold',      'bg' : '254' },
   \   'ALEErrorSign'           : { 'font' : 'bold',      'bg' : '254', 'fg' : '160' },
   \   'ALEWarningSign'         : { 'font' : 'bold',      'bg' : '254', 'fg' : '209' },
