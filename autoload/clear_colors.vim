@@ -204,6 +204,9 @@ function! s:apply_common_links() " {{{
   highlight! link CtrlPPrtBase Function
   highlight! link CtrlPMode2 StatusLine
   highlight! link CtrlPStats StatusLine
+  highlight! link fzf1 FoldColumn
+  highlight! link fzf2 Statusline
+  highlight! link fzf3 Statusline
   highlight! link GentooChangeLogDelFile SignifyLineDelete
   highlight! link GitGutterAdd SignifySignAdd
   highlight! link GitGutterChange SignifySignChange
@@ -364,4 +367,22 @@ function! clear_colors#apply_specific_stuff() " {{{
   endfor
 
   call clear_colors#apply_colors(l:rainbow_colors)
+
+  " Fzf.vim
+  let g:fzf_colors =
+    \ {
+    \   'fg':      [ 'fg', 'Normal' ],
+    \   'bg':      [ 'bg', 'Normal' ],
+    \   'hl':      [ 'fg', 'Function' ],
+    \   'fg+':     [ 'fg', 'Normal'],
+    \   'bg+':     [ 'bg', 'CursorLine' ],
+    \   'hl+':     [ 'fg', 'FoldColumn' ],
+    \   'info':    [ 'fg', 'Character' ],
+    \   'border':  [ 'fg', 'Normal' ],
+    \   'prompt':  [ 'fg', 'Function' ],
+    \   'pointer': [ 'fg', 'Function' ],
+    \   'marker':  [ 'fg', 'Function' ],
+    \   'spinner': [ 'fg', 'Character' ],
+    \   'header':  [ 'fg', 'Type' ],
+    \ }
 endfunction " }}}
