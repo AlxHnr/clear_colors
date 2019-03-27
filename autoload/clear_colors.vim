@@ -133,6 +133,8 @@ function! s:apply_common_colors() " {{{
     \   'WarningMsg'       : {},
     \   'ErrorMsg'         : {},
     \   'Question'         : {},
+    \   'Error'            : { 'font' : 'underline', 'fg' : '203' },
+    \   'healthError'      : { 'fg'   : '203' },
     \   'htmlBold'         : { 'font' : 'bold' },
     \   'htmlItalic'       : { 'font' : 'italic' },
     \   'htmlBoldItalic'   : { 'font' : 'bold,italic' },
@@ -192,6 +194,8 @@ function! s:apply_common_links() " {{{
   highlight! link ocamlModPath Identifier
   highlight! link ocamlModule Identifier
   highlight! link ocamlFullMod Identifier
+  highlight! link healthSuccess String
+  highlight! link healthWarning Constant
   highlight! link StartifyBracket Comment
   highlight! link StartifyFile Normal
   highlight! link StartifyFooter Constant
@@ -281,7 +285,8 @@ function! s:apply_common_links() " {{{
   highlight! link plugPlus Character
   highlight! link plugStar Constant
   highlight! link plugMessage Constant
-  highlight! link plugX plugError
+  highlight! link plugError healthError
+  highlight! link plugX healthError
   highlight! link plugName Function
   highlight! link plugInstall Constant
   highlight! link plugUpdate Comment
