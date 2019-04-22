@@ -150,6 +150,8 @@ function! s:apply_common_links() " {{{
   highlight! link SpellLocal Error
   highlight! link Directory Function
   highlight! link StatusLineNC LineNr
+  highlight! link StatusLineTerm StatusLine
+  highlight! link StatusLineTermNC StatusLineNC
   highlight! link TabLineFill TabLine
   highlight! link VisualNOS Visual
   highlight! link diffAdded String
