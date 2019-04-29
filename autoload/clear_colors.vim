@@ -176,6 +176,12 @@ function! s:apply_common_links() " {{{
   highlight! link ocamlFullMod Identifier
   highlight! link healthSuccess String
   highlight! link healthWarning Constant
+  highlight! link tutorOk SignifySignAdd
+  highlight! link tutorX SignifySignDelete
+  highlight! link tutorLink Underlined
+  highlight! link tutorMarks Todo
+  highlight! link tutorEmphasis htmlItalic
+  highlight! link tutorBold htmlBold
   highlight! link StartifyBracket Comment
   highlight! link StartifyFile Normal
   highlight! link StartifyFooter Constant
