@@ -308,6 +308,9 @@ function! clear_colors#apply_colors(dict) " {{{
   if has('gui_running')
     let l:prefix = 'gui'
     let l:to_hex = 1
+  elseif has('termguicolors') && &termguicolors
+    let l:prefix = 'gui'
+    let l:to_hex = 1
   else
     let l:prefix = 'cterm'
     let l:to_hex = 0
