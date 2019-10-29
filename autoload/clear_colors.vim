@@ -209,6 +209,8 @@ function! s:apply_common_links() " {{{
   highlight! link NeomakeWarningSign ALEWarningSign
   highlight! link SyntasticErrorSign ALEErrorSign
   highlight! link SyntasticWarningSign ALEWarningSign
+  highlight! link YcmErrorSign ALEErrorSign
+  highlight! link YcmWarningSign ALEWarningSign
   highlight! link EasyMotionShade Comment
   highlight! link EasyMotionTarget2Second EasyMotionTarget2First
   highlight! link EasyMotionIncSearch Character
