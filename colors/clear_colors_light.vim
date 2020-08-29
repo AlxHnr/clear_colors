@@ -80,6 +80,8 @@ let s:colors =
   \   'painterPaletteYellow'   : { 'bg' : '173',         'fg' : '173' },
   \   'painterPaletteGreen'    : { 'bg' : '64',          'fg' : '64' },
   \   'painterCanvasEmpty'     : { 'bg' : '231',         'fg' : '231' },
+  \   'debugBreakpoint'        : { 'font' : 'bold',      'bg' : '254', 'fg' : '133' },
+  \   'debugPC'                : { 'bg' : '187' },
   \ }
 
 " Plugin specific stuff. {{{
